@@ -1,0 +1,61 @@
+export type Language = 'en' | 'pt' | 'es';
+
+export const translations = {
+  en: {
+    title: 'ChordWheel',
+    subtitle: 'Circle of Fifths',
+    activeKey: 'Active Key',
+    relativeMinor: 'Relative Minor',
+    primaryChords: 'Primary Chords',
+    secondaryChords: 'Secondary Chords',
+    footerHint: 'Drag wheel to transpose',
+    reset: 'RESET TO C',
+    infoTitle: 'The Chord Wheel',
+    infoIntro: 'This digital wheel replicates the physical tool used by musicians to visualize music theory.',
+    infoWindow: 'The Window: The blue frame highlights the 7 diatonic chords of the selected key.',
+    infoBottom: 'Bottom: Major chords (IV, I, V)',
+    infoMiddle: 'Middle: Minor chords (ii, vi, iii)',
+    infoTop: 'Top: Diminished chord (vii°)',
+    infoTransposing: 'Transposing: Spin the wheel to move a progression from one key to another while maintaining the same relative positions.',
+    close: 'Close',
+    major: 'Major'
+  },
+  pt: {
+    title: 'ChordWheel',
+    subtitle: 'Círculo de Quintas',
+    activeKey: 'Tom Ativo',
+    relativeMinor: 'Relativa Menor',
+    primaryChords: 'Acordes Primários',
+    secondaryChords: 'Acordes Secundários',
+    footerHint: 'Arraste a roda para transpor',
+    reset: 'REDEFINIR PARA C',
+    infoTitle: 'A Roda de Acordes',
+    infoIntro: 'Esta roda digital replica a ferramenta física usada por músicos para visualizar a teoria musical.',
+    infoWindow: 'A Janela: A moldura azul destaca os 7 acordes diatônicos do tom selecionado.',
+    infoBottom: 'Base: Acordes maiores (IV, I, V)',
+    infoMiddle: 'Meio: Acordes menores (ii, vi, iii)',
+    infoTop: 'Topo: Acorde diminuto (vii°)',
+    infoTransposing: 'Transposição: Gire a roda para mover uma progressão de um tom para outro mantendo as mesmas posições relativas.',
+    close: 'Fechar',
+    major: 'Maior'
+  },
+  es: {
+    title: 'ChordWheel',
+    subtitle: 'Círculo de Quintas',
+    activeKey: 'Tonalidad Activa',
+    relativeMinor: 'Relativa Menor',
+    primaryChords: 'Acordes Primarios',
+    secondaryChords: 'Acordes Secundarios',
+    footerHint: 'Arrastra la rueda para transponer',
+    reset: 'REINICIAR A C',
+    infoTitle: 'La Rueda de Acordes',
+    infoIntro: 'Esta rueda digital replica la herramienta física utilizada por los músicos para visualizar la teoría musical.',
+    infoWindow: 'La Ventana: El marco azul resalta los 7 acordes diatónicos de la tonalidad seleccionada.',
+    infoBottom: 'Base: Acordes mayores (IV, I, V)',
+    infoMiddle: 'Medio: Acordes menores (ii, vi, iii)',
+    infoTop: 'Arriba: Acorde disminuido (vii°)',
+    infoTransposing: 'Transposición: Gira la rueda para mover una progresión de una tonalidad a otra manteniendo las mismas posiciones relativas.',
+    close: 'Cerrar',
+    major: 'Mayor'
+  }
+};

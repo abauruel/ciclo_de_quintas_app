@@ -1,0 +1,5 @@
+{
+  "name": "ChordWheel - Circle of Fifths",
+  "description": "An interactive Circle of Fifths wheel for musicians to identify chords in any key and transpose music easily.",
+  "requestFramePermissions": []
+}
